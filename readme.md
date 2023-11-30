@@ -1,6 +1,6 @@
 # Three.js Billiards Simulator
 
-[Demo](http://billiards-simulator.herokuapp.com/)
+[Demo](http://billiards-simulator.herokuapp.com/) (press "Space" to shoot)
 
 ![sceenshot](screen.png)
 
