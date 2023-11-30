@@ -3,7 +3,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "start": "webpack serve --config ./bundler/webpack.dev.js"
+    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "start": "node server.js"
   },
   "dependencies": {
     "cannon": "^0.6.2",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@types/cannon": "^0.1.8",
-    "@types/three": "^0.141.0"
+    "@types/three": "^0.141.0",
+    "express": "^4.18.2"
   }
 }
